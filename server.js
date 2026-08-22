@@ -25,7 +25,7 @@ const FORMATS_LABEL = 'PDF, DOC, DOCX, PPT, PPTX, PNG, JPG';
 // routed to a different WhatsApp number.
 const STUDY_BUDDY_CONTACT_URL = 'https://wa.me/2349136086344?text=Hello';
 
-const SUBMIT_WEBHOOK_URL = 'https://smce-n8n.tx5mac.easypanel.host/webhook/get_user';
+const SUBMIT_WEBHOOK_URL = 'https://sb-n8n.rhat7s.easypanel.host/webhook/get_user';
 
 // ── Atomic write queue (avoids race conditions / file corruption) ─────────────
 let storeWriteQueue = Promise.resolve();
